@@ -11,7 +11,7 @@ It's a ransomware-like file crypter sample which can be modified for specific pu
 * Uses AES algorithm to encrypt files.
 * Sends encryption key to a server.
 * Encrypted files can be decrypt in decrypter program with encryption key.
-* Creates a text file with in Desktop with given message.
+* Creates a text file in Desktop with given message.
 * Doesn't detected to antivirus programs (15/08/2015) http://nodistribute.com/result/6a4jDwi83Fzt
 
 **Demonstration Video**
