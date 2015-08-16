@@ -5,7 +5,7 @@
         | | | | | (_| | (_| |  __/ | | | | ||  __/ (_| | |   
         |_| |_|_|\__,_|\__,_|\___|_| |_|  \__\___|\__,_|_|   
                                                      
-It's a ransomware-like file crypter program which uses AES algorithm.
+It's a ransomware-like file crypter sample which can be modified for specific purposes. 
 
 **Features**
 * Uses AES algorithm to encrypt files.
