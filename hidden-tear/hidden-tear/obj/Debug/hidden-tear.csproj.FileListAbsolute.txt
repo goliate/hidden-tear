@@ -1,0 +1,9 @@
+c:\users\utku\documents\visual studio 2013\Projects\hidden-tear\hidden-tear\bin\Debug\hidden-tear.exe.config
+c:\users\utku\documents\visual studio 2013\Projects\hidden-tear\hidden-tear\bin\Debug\hidden-tear.exe
+c:\users\utku\documents\visual studio 2013\Projects\hidden-tear\hidden-tear\bin\Debug\hidden-tear.pdb
+c:\users\utku\documents\visual studio 2013\Projects\hidden-tear\hidden-tear\obj\Debug\hidden_tear.Form1.resources
+c:\users\utku\documents\visual studio 2013\Projects\hidden-tear\hidden-tear\obj\Debug\hidden_tear.Properties.Resources.resources
+c:\users\utku\documents\visual studio 2013\Projects\hidden-tear\hidden-tear\obj\Debug\hidden-tear.csproj.GenerateResource.Cache
+c:\users\utku\documents\visual studio 2013\Projects\hidden-tear\hidden-tear\obj\Debug\hidden-tear.exe
+c:\users\utku\documents\visual studio 2013\Projects\hidden-tear\hidden-tear\obj\Debug\hidden-tear.pdb
+C:\Users\utku\Documents\Visual Studio 2013\Projects\hidden-tear\hidden-tear\obj\Debug\hidden-tear.csprojResolveAssemblyReference.cache

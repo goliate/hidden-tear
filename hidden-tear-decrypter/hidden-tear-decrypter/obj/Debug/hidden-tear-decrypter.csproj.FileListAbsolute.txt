@@ -1,0 +1,8 @@
+c:\users\utku\documents\visual studio 2013\Projects\hidden-tear-decrypter\hidden-tear-decrypter\bin\Debug\hidden-tear-decrypter.exe.config
+c:\users\utku\documents\visual studio 2013\Projects\hidden-tear-decrypter\hidden-tear-decrypter\bin\Debug\hidden-tear-decrypter.exe
+c:\users\utku\documents\visual studio 2013\Projects\hidden-tear-decrypter\hidden-tear-decrypter\bin\Debug\hidden-tear-decrypter.pdb
+c:\users\utku\documents\visual studio 2013\Projects\hidden-tear-decrypter\hidden-tear-decrypter\obj\Debug\hidden_tear_decrypter.Form1.resources
+c:\users\utku\documents\visual studio 2013\Projects\hidden-tear-decrypter\hidden-tear-decrypter\obj\Debug\hidden_tear_decrypter.Properties.Resources.resources
+c:\users\utku\documents\visual studio 2013\Projects\hidden-tear-decrypter\hidden-tear-decrypter\obj\Debug\hidden-tear-decrypter.csproj.GenerateResource.Cache
+c:\users\utku\documents\visual studio 2013\Projects\hidden-tear-decrypter\hidden-tear-decrypter\obj\Debug\hidden-tear-decrypter.exe
+c:\users\utku\documents\visual studio 2013\Projects\hidden-tear-decrypter\hidden-tear-decrypter\obj\Debug\hidden-tear-decrypter.pdb
