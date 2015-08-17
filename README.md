@@ -21,7 +21,7 @@ https://www.youtube.com/watch?v=LtiRISepIfs
 
 **Usage**
 
-* You need to have a web server which supports scripting languages like php,python etc. Change this line with your URL.
+* You need to have a web server which supports scripting languages like php,python etc. Change this line with your URL. (You better use Https connection to avoid eavesdropping)
 
   `string targetURL = "http://www.utkusen.com/hidden-tear/write.php?info=";`
 
