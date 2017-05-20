@@ -13,7 +13,7 @@ It's a ransomware-like file crypter sample which can be modified for specific pu
 * Encrypted files can be decrypt in decrypter program with encryption key.
 * Creates a text file in Desktop with given message.
 * Small file size (12 KB)
-* Doesn't detected to antivirus programs (15/08/2015) http://nodistribute.com/result/6a4jDwi83Fzt
+* Doesn't detected to antivirus programs (15/08/2015) http://nodistribute.com/result/6a4jDwi83Fzt (Detected by 19/35 in 05/20/2017)
 
 **Demonstration Video**
 
