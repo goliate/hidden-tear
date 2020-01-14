@@ -129,7 +129,7 @@ publish/
 # Publish Web Output
 *.[Pp]ublish.xml
 *.azurePubxml
-# TODO: Comment the next line if you want to checkin your web deploy settings 
+# TODO: Comment the next line if you want to check in your web deploy settings 
 # but database connection strings (with potential passwords) will be unencrypted
 *.pubxml
 *.publishproj
@@ -192,5 +192,5 @@ FakesAssemblies/
 # Visual Studio 6 build log
 *.plg
 
-# Visual Studio 6 workspace options file
+# Visual Studio 6 workspace option file
 *.opt
