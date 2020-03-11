@@ -9,7 +9,7 @@ It's a ransomware-like file crypter sample which can be modified for specific pu
 
 **Features**
 * Uses AES algorithm to encrypt files.
-* Sends encryption key to a server.
+* Send encryption key to a server.
 * Encrypted files can be decrypt in decrypter program with encryption key.
 * Creates a text file in Desktop with given message.
 * Small file size (13 KB).
