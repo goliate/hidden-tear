@@ -25,7 +25,7 @@ bld/
 # Visual Studo 2015 cache/options directory
 .vs/
 
-# MSTest test Results
+# MSTest test Result
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
 
@@ -96,7 +96,7 @@ _ReSharper*/
 # TeamCity is a build add-in
 _TeamCity*
 
-# DotCover is a Code Coverage Tool
+# DotCover is a Code Coverage Tools
 *.dotCover
 
 # NCrunch
